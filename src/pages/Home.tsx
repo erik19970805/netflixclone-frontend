@@ -1,7 +1,13 @@
-import React from 'react';
+import Featured from '@components/Featured';
+import List from '@components/List';
+import NavBar from '@components/NavBar';
 
-function Home() {
-  return <div>home</div>;
-}
+const Home = () => (
+  <div className="home">
+    <NavBar />
+    <Featured />
+    <List /> <List /> <List /> <List /> <List /> <List /> <List />
+  </div>
+);
 
 export default Home;
